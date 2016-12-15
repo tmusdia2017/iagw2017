@@ -9,21 +9,21 @@ body{
     margin: 0 auto;
     width: 100vw;
     height: 90vh;
-    background-image:url(img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(img/bg.png);
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;    
 }
 
-#norunoruwarota{
+#firstview-logo{
     margin: auto;
-    width: 50vw;
-    height: 30px;
+    width: 100vw;
+    height: auto;
     position: absolute;
-    bottom: 150px;
+    bottom: 10vh;
+    display: block;
+    z-index: 100;
 }
         
 .header{

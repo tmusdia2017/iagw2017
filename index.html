@@ -21,16 +21,32 @@
             shadow:false,  //影をつける、影を付けたければtrueを入れる
             minSize:50,     //好みで最小の大きさを指定
             maxSize:100,    //好みで最大の大きさを指定
-            flakeCount:10, //表示数
-            minspeed:2,    //最小落下速度
+            flakeCount:5, //表示数
+            minspeed:3,    //最小落下速度
             maxSpeed:5,  //最大落下速度
-            collection : "#norunoruwarota", //積もる要素を指定
-            image : "img/piece1.png"// オリジナル画像を使用する場合
+            //collection : "#norunoruwarota", //積もる要素を指定
+            image : "img/piece1.png",// オリジナル画像を使用する場合
+            flakeIndex :"5"
         });  
            
     });
     console.log("ok2");
-    
+    $(window).load(function(){
+        $(".firstview").snowfall({
+            flakeColor:"#ffffff", //色を指定
+            round:false,   //丸くする、丸が嫌ならfalseを入れる
+            shadow:false,  //影をつける、影を付けたければtrueを入れる
+            minSize:50,     //好みで最小の大きさを指定
+            maxSize:100,    //好みで最大の大きさを指定
+            flakeCount:3, //表示数
+            minspeed:3,    //最小落下速度
+            maxSpeed:5,  //最大落下速度
+            //collection : "#norunoruwarota", //積もる要素を指定
+            image : "img/piece1.png",// オリジナル画像を使用する場合
+            flakeIndex :"888"
+        });  
+           
+    });
     
     
     
@@ -39,7 +55,7 @@
 <body>
    
     <section class="firstview">
-        <div id="norunoruwarota"></div>
+        <img src="img/main-logo.png" id="firstview-logo">
     </section>
     <section class="header">
         <a href="#">CONCEPT</a>
