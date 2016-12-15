@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color:#ffffff;
+    font-family: "Noto Sans Japanese", sans-serif;
+    margin: 0;
+}
+        
+.firstview{
+    margin: 0 auto;
+    width: 100vw;
+    height: 90vh;
+    background-image:url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#norunoruwarota{
+    margin: auto;
+    width: 50vw;
+    height: 30px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 150px;
+    
+}
+        
+.header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 20px;         
+}
+        
+.header a{
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;    
+}
+    
+    
+    
+    
+    

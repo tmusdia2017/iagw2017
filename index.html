@@ -5,55 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>iagw2017</title>
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-    <style>
-        body{
-            text-align: center;
-            background-color:#ffffff;
-            font-family: "Noto Sans Japanese", sans-serif;
-            margin: 0;
-        }
-        
-        .firstview{
-            margin: 0 auto;
-            width: 100vw;
-            height: 90vh;
-            background-color: #cfdce0;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-        }
-        
-        .header{
-            display: flex;
-            width: 100vw;
-            height: 10vh;
-            margin: 0 auto;
-            justify-content: center;
-            align-items: center;
-            flex-grow: 20px; 
-            
-        }
-        
-        .header a{
-            margin: 0 auto;
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-            
-        }
-    
-    
-    
-    
-    
-    
-    
-    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="snowfall.jquery.js"></script>
 </head>
+
+   
+    
+<script type="text/javascript">
+    console.log("ok1");
+    $(window).load(function(){
+        $(".firstview").snowfall({
+            flakeColor:"#ffffff", //色を指定
+            round:false,   //丸くする、丸が嫌ならfalseを入れる
+            shadow:false,  //影をつける、影を付けたければtrueを入れる
+            minSize:50,     //好みで最小の大きさを指定
+            maxSize:100,    //好みで最大の大きさを指定
+            flakeCount:10, //表示数
+            minspeed:2,    //最小落下速度
+            maxSpeed:5,  //最大落下速度
+            collection : "#norunoruwarota", //積もる要素を指定
+            image : "img/piece1.png"// オリジナル画像を使用する場合
+        });  
+           
+    });
+    console.log("ok2");
+    
+    
+    
+    
+</script>
+
 <body>
-     <section class="firstview">IA</section>
+   
+    <section class="firstview">
+        <div id="norunoruwarota">ピースが乗るよ</div>
+    </section>
     <section class="header">
         <a href="#">CONCEPT</a>
         <a href="#">INFORMATION</a>
