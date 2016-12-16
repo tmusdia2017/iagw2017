@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="snowfall.jquery.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGR_l8pxOrb1H3cMBvBrLnsAI55rzJel4"></script>
 </head>
 
    
@@ -50,6 +51,77 @@
     
     
     
+    var map;
+    function initMap() {
+          
+        //スタイル情報を配列に保存
+        var style01 = [
+          {
+            stylers: [
+                { hue: "#f5ea57" },
+                { saturation: 10 },
+                { lightness: 20 },
+                { gamma: 0.7 }
+            ]
+          },{
+            featureType: "road",
+            elementType: "geometry",
+            stylers: [
+              { lightness: 100 },
+              { visibility: "simplified" }
+            ]
+          },{
+            featureType: "road",
+            elementType: "labels",
+            stylers: [
+              { visibility: "off" }
+            ]
+          },{
+              featureType: "poi.government",
+              elementType: "labels",
+              stylers: [
+                { visibility: "off" }
+              ]
+          },{
+                featureType: "administrative.locality",
+                elementType: "geometry.fill",
+                stylers: [
+                  {
+                    color: "#76b9b7"
+                  },
+                  {
+                    weight: 3
+                  }
+                ]
+              },{
+                featureType: "administrative.locality",
+                elementType: "labels.text",
+                stylers: [
+                  {
+                    color: "#76b9b7"
+                  },
+                  {
+                    weight: 1
+                  }
+                ]
+              }
+        ];
+        
+          var mapOptions = {
+            zoom: 15,
+            center: new google.maps.LatLng(35.6613, 139.373),// 中心座標 [lating]
+            styles: style01,        //地図のスタイル適用
+            disableDefaultUI: true　//デフォルトUIをオフ
+          };
+        
+        //地図の描画
+        map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+      }
+    
+    window.onload = function(){
+        initMap();
+    }
+    
 </script>
 
 <body>
@@ -67,7 +139,7 @@
    <section class="concept">
        <span>CONCEPT</span>
        <h1>ピース</h1>
-       <p>三角形が6個で１２種類の図形です</p>
+       <p>三角形が6個で１２種類の図形です。</p>
    </section>
    <section class="information">
      <span>INFORMATION</span>
@@ -87,7 +159,7 @@
            <dd>JR中央線 「豊田」駅から徒歩20分</dd>
            <dd>京王バス「平山工業団地循環」乗車、「旭が丘中央公園」下車、徒歩5分</dd>
        </dl>
-   <div id="map"></div>
+       <div id="map_canvas"></div>
    </section>
    
     <section class="blog">
