@@ -10,7 +10,21 @@ body{
     margin: 0;
     width: : 100vw;
 }
-        
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    top: 90vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; 
+    background-color: white;
+    
+}
+
+
 .firstview{
     width: 100%;
     height:90vh;
@@ -73,19 +87,6 @@ body{
     margin-bottom: 10vh;
 }
         
-.header{
-    display: flex;
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    top: 90vh;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center; 
-    background-color: white;
-    
-}
-
 .header_content{
     width: 133px;
     text-align: center;
