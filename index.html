@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>iagw2017</title>
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -12,8 +12,9 @@
 </head>
 
    
-    
+
 <script type="text/javascript">
+    /*   
     console.log("ok1");
     $(window).load(function(){
         $(".firstview").snowfall({
@@ -22,7 +23,7 @@
             shadow:false,  //影をつける、影を付けたければtrueを入れる
             minSize:50,     //好みで最小の大きさを指定
             maxSize:100,    //好みで最大の大きさを指定
-            flakeCount:, //表示数
+            flakeCount:10, //表示数
             minspeed:3,    //最小落下速度
             maxSpeed:5,  //最大落下速度
             //collection : "#norunoruwarota", //積もる要素を指定
@@ -48,18 +49,23 @@
         });  
            
     });
-    
+    */
 </script>
 
 <body>
     <!--ファーストビューの表示:文字以外は背景画像と降ってくるピースで構成-->
-    <section class="firstview">
-        <span>首都大学東京</span>
-        <span>システムデザイン学部・研究科</span>
-        <span>インダストリアルアートコース・学域</span>
-        <span>卒業・修了制作展</span>
-        <span>平成29年2月6日|土| - 2月8日|月| 10時-17時</span>
-    </section>
+    <div class="firstview">
+        <div class="firstview-title">
+            <h1>首都大学東京</h1>
+            <span class="h1-sub">システムデザイン学部・研究科</span>
+            <span class="h1-sub">インダストリアルアートコース・学域</span>
+            <span class="h1-sub">卒業・修了制作展</span>
+            <span class="h1-date">平成29年2月6日|土| - 2月8日|月| 10時-17時</span>
+            <span class="h1-eng">Tokyo Metropolitan University Faculty of System Design</span>
+            <span class="h1-eng">Industrial Art Graduation Exhibition</span>
+        </div>
+        <img src="img/firstview-toge.png" class="firstview-toge">
+    </div>
     
     <!-- ヘッダーバー：ヘッダーバーと言いつつ画面下に固定で配置？ -->
     <section class="header">
