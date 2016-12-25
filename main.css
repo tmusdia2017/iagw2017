@@ -34,9 +34,15 @@ body{
     height: 10vh;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
-    flex-grow: 20px; 
+    flex-wrap: wrap;
+    align-content: center; 
     background-color: white;
+    
+}
+
+.header_content{
+    width: 133px;
+    text-align: center;
 }
         
 .header a{
