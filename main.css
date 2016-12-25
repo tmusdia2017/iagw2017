@@ -421,8 +421,10 @@ h1{
 #footer{
     width:100%;
     height: 40px;
+    padding-top: 20px;
     float:left;
     text-align: right;
     background-color: #f5ea57;
     font-size: 12px;
+    font-weight: 600;
 }
