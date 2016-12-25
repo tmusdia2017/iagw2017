@@ -24,6 +24,13 @@ body{
     
 }
 
+#wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
 
 .firstview{
     width: 100%;
@@ -82,9 +89,8 @@ body{
 .firstview img{
     position: absolute;
     width: 100%;
-    bottom: 0px;
     left: 0px;
-    margin-bottom: 10vh;
+    bottom: 0px;
 }
         
 .header_content{
