@@ -9,11 +9,12 @@ body{
     margin: 0 auto;
     width: 100vw;
     height: 90vh;
-    background-image: url(img/bg.png);
+    background-image: url(img/top-bg.png);
+    background-size:cover;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
 }
 
 #firstview-logo{
@@ -28,12 +29,14 @@ body{
         
 .header{
     display: flex;
+    position: fixed;
     width: 100vw;
     height: 10vh;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    flex-grow: 20px;         
+    flex-grow: 20px; 
+    background-color: white;
 }
         
 .header a{
@@ -41,6 +44,40 @@ body{
     text-decoration: none;
     color: black;
     font-size: 20px;    
+}
+
+
+.greeting{
+    margin: 0 auto;
+    width: 100vw;
+    height: 90vh;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.concept{
+    margin: 0 auto;
+    background-color:#F1EC5A;
+    width: 100vw;
+    height: 90vh;
+    color: grey;
+    display: flex;
+    align-items: center;
+
+}
+
+.information{
+    margin: 0 auto;
+    width: 100vw;
+    height: 90vh;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    
 }
     
     

@@ -21,7 +21,7 @@
             shadow:false,  //影をつける、影を付けたければtrueを入れる
             minSize:50,     //好みで最小の大きさを指定
             maxSize:100,    //好みで最大の大きさを指定
-            flakeCount:5, //表示数
+            flakeCount:, //表示数
             minspeed:3,    //最小落下速度
             maxSpeed:5,  //最大落下速度
             //collection : "#norunoruwarota", //積もる要素を指定
@@ -53,10 +53,16 @@
 </script>
 
 <body>
-   
+    <!--ファーストビューの表示:文字以外は背景画像と降ってくるピースで構成-->
     <section class="firstview">
-        <img src="img/main-logo.png" id="firstview-logo">
+        <span>首都大学東京</span>
+        <span>システムデザイン学部・研究科</span>
+        <span>インダストリアルアートコース・学域</span>
+        <span>卒業・修了制作展</span>
+        <span>平成29年2月6日|土| - 2月8日|月| 10時-17時</span>
     </section>
+    
+    <!-- ヘッダーバー：ヘッダーバーと言いつつ画面下に固定で配置？ -->
     <section class="header">
         <a href="#">CONCEPT</a>
         <a href="#">INFORMATION</a>
@@ -64,35 +70,75 @@
         <a href="#">BLOG</a>
         <a href="#">EXHIBITORS</a>
     </section>
-   <section class="concept">
-       <span>CONCEPT</span>
-       <h1>ピース</h1>
-       <p>三角形が6個で１２種類の図形です</p>
-   </section>
-   <section class="information">
-     <span>INFORMATION</span>
-      <h1>首都大学東京システムデザイン学部インダストリアルアートコース卒業・修了制作展 2017</h1>
-       <h2>Tokyo Metropolitan University Faculty of System Design Division of Industrial Art Graduation Exhibition 2017</h2>
-       <dl>
-       <dt>会期</dt>
-           <dd>平成29年2月6日(土)-2月8日(月)<br>
-               10:00~1700
-           </dd>
-        <dt>会期</dt>
-           <dd>首都大学東京　日野キャンパス<br>
-               東京都日野旭が丘6-6
-           </dd>
-        <dt>アクセス</dt>
-           <dd>JR八高線 「北八王子」駅から徒歩13分</dd>
-           <dd>JR中央線 「豊田」駅から徒歩20分</dd>
-           <dd>京王バス「平山工業団地循環」乗車、「旭が丘中央公園」下車、徒歩5分</dd>
-       </dl>
-   <div id="map"></div>
-   </section>
+    
+    <!-- 挨拶 -->
+    <section class="greeting">
+       <p>今年も「卒業・修了制作展2016」やります</p>
+    </section>
+    
+    <!-- コンセプトの説明 -->
+    <section class="concept">
+        <img src="img/concept-togetoge.png">
+        <h1>CONCEPT</h1>
+        <span>Piece【ピース】</span>
+        <p>ピースのモチーフである「ヘキサモンド」は正三角形を６つつなげることでできる図形で、１２種類の形が存在します。インダストリアルアートコースは６つのメディアート分野と６つのプロダクトデザイン分野の１２研究分野から構成され、これらは複合的に関わりあっています。培った知識や経験から様々な形のピースが組み合わさることで、それぞれの学生がもつカタチと成り、この先も拡がり続けてゆくことと思います。ここから新たな一歩を踏み出す学生たちの作品を、是非ご覧ください。</p>
+    </section>
+    
+    <!-- インフォメーション -->
+    <section class="information">
+        <h1>INFORMATION</h1>
+        <div id="informationbox">
+            <div id="informationbox-left">
+                <span>首都大学東京システムデザイン学部</span>
+                <span>インダストリアルアートコース</span>
+                <span>卒業・修了制作展 2016</span>
+                <hr>
+                <span>Tokyo Metropolitan University</span>
+                <span>Faculty of System Design Division</span>
+                <span>Industrial Art Graduation Exhibition 2016</span>
+            </div>
+            <div id="informationbox-right">
+                <dl>
+                <dt>会期</dt>
+                    <dd>平成29年2月6日(土)-2月8日(月)<br>
+                        10:00~1700
+                    </dd>
+                <dt>会期</dt>
+                    <dd>首都大学東京　日野キャンパス<br>
+                        東京都日野旭が丘6-6
+                    </dd>
+                <dt>アクセス</dt>
+                    <dd>JR八高線 「北八王子」駅から徒歩13分</dd>
+                    <dd>JR中央線 「豊田」駅から徒歩20分</dd>
+                    <dd>京王バス「平山工業団地循環」乗車、「旭が丘中央公園」下車、徒歩5分</dd>
+               </dl>
+            </div>
+            <div id="maplink-btn">GoogleMap</div>
+        </div>
+
+
+    </section>
+    
+    <section class="exhibitors">
+        <div id="exhibitors-info"></div>
+        <div id="lavo-product"></div>
+        <div id="lavo-media"></div>
+    </section>
    
     <section class="blog">
-        
+        <h1>BLOG</h1>
+        <img>
     </section>
+    
+    <section class="other-exhibition">
+        <h1>学外展情報</h1>
+        <div></div>
+        <div></div>
+    </section>
+    
+    <footer>
+        ©2017 首都大学東京 インダストリアルアートコース・学域 All Right Reserved
+    </footer>
     
 </body>
 </html>
