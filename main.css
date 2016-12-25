@@ -6,30 +6,71 @@
 body{
     text-align: center;
     background-color:#ffffff;
-    font-family: "Noto Sans Japanese", sans-serif;
+    font-family:Avenir , "Open Sans" , "游ゴシック","Helvetica Neue" , Helvetica , Arial , Verdana , Roboto  , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
     margin: 0;
+    width: : 100vw;
 }
         
 .firstview{
-    margin: 0 auto;
-    width: 100vw;
-    height: 90vh;
-    background-image: url(img/top-bg.png);
-    background-size:cover;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
+    width: 100%;
+    height:90vh;
+    background-image:url(img/firstview-bg.png);
+    background-color: #F5EA57;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-y;
+    overflow: hidden;
 }
 
-#firstview-logo{
-    margin: auto;
-    width: 100vw;
-    height: auto;
+.firstview-title{
+    width: 800px;
+    height: 270px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.firstview h1{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing:5px;
+}
+
+.h1-sub{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing:7px;
+    line-height: 48px;
+    float: left;
+    clear: left;
+}
+
+.h1-date{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing:7px;
+    float: left;
+    clear: left;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.h1-eng{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing:3px;
+    float: left;
+    clear: left;
+    margin-left: 5px;
+}
+
+.firstview img{
     position: absolute;
-    bottom: 10vh;
-    display: block;
-    z-index: 100;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 10vh;
 }
         
 .header{
@@ -37,7 +78,7 @@ body{
     position: fixed;
     width: 100vw;
     height: 10vh;
-    margin: 0 auto;
+    top: 90vh;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center; 
@@ -63,6 +104,7 @@ body{
     width: 100vw;
     height: 90vh;
     color: grey;
+    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -92,11 +134,4 @@ body{
 }
     
    
-#map_canvas{
-    position: relative;
-    margin:auto;
-    width:500px;
-    height:400px;
-}  
-    
     
