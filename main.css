@@ -339,3 +339,16 @@ h1{
     line-height: 17px;
     clear: left;
 }
+
+.blog{
+    float:left;
+    width:100%;
+    height: 300px;
+}
+
+.blog hr{
+    width: 6em;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
