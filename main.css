@@ -11,6 +11,14 @@ body{
     width: : 100vw;
 }
 
+h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing:2px;
+}
+
+
 .header{
     display: flex;
     position: fixed;
@@ -33,6 +41,7 @@ body{
 
 
 .firstview{
+    float: left;
     width: 100%;
     height:90vh;
     background-image:url(img/firstview-bg.png);
@@ -119,14 +128,59 @@ body{
 
 
 .concept{
-    margin: 0 auto;
-    background-color:#F1EC5A;
-    width: 100vw;
-    height: 90vh;
-    color: grey;
-    display: flex;
-    align-items: center;
+    float: left;
+    width: 100%;
+    height:90vh;
+    background-color: #F5EA57;
+    overflow: hidden;
+    text-align: center;
+}
 
+.concept img{
+    width: 100%;
+}
+
+.concept hr{
+    width: 170px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.concept-concept{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 800px;
+    text-align: left;
+}
+
+.concept-concept hr{
+    width: 400px;
+    margin: 0;
+    border: 2px solid black;
+    margin-top: -10px;
+}
+
+.concept-piece{
+    font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing:5px;
+}
+
+.concept-piece-ja{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing:5px;
+}
+
+.concept-concept p{
+    font-weight:100;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 29px;
+    letter-spacing:1px;
 }
 
 .information{
