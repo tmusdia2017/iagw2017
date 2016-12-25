@@ -354,3 +354,135 @@ h1{
     border: 1px solid black;
 }
 
+.exhibitors{
+    float: left;
+    width: 100%;
+    height:auto;
+    min-height: 90vh;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.exhibitors h1{
+    margin-top: 80px;
+}
+
+.exhibitors hr{
+    width: 260px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#exhibitors-info{
+    max-width: 70vw;
+    min-width: 360px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+#exhibitors-info img{
+    margin-top: 10px;
+    width: 10%;
+}
+
+#exhibitors-info h3{
+    font-size: 15px;
+}
+
+#exhibitors-info h4{
+    font-size: 15px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+#mastars{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#mastars span{
+    width: 120px;
+}
+
+
+#bachelors{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#bachelors span{
+    width: 120px;
+}
+
+#lavo{
+    max-width: 75vw;
+    min-width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+#lavo-product{
+    min-width: 350px;
+    max-width: 48%;
+    height: auto;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    border-left: 5px solid #76B9B7;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    justify-content: center;
+}
+
+#lavo-media{
+    min-width: 350px;
+    max-width: 48%;
+    height: auto;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    border-left: 5px solid #F5EA57;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    justify-content: center;
+}
+
+.lavolatories{
+    min-width: 220px;
+    max-width: 300px;
+    font-size: 12px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    
+}
+
+#lavo-media .lavolatories{
+    background-image: url(img/lavo-media-bg.png);
+    background-position: right;
+}
+
+#lavo-product .lavolatories{
+    background-image: url(img/lavo-product-bg.png);
+    background-position: right;
+}
