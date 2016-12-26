@@ -14,6 +14,29 @@
    
 
 <script type="text/javascript">
+    $(function(){
+        
+        var true_position = 0;
+        var old_position = 0;
+        
+        // ヘッダーのリンクをクリックした場合に処理
+        $('.header_content').click(function() {
+            //href内を確認して取得
+            var target= $(this).attr("href");
+            console.log(target);
+            // 移動先を取得
+            var position = $(target).offset().top;
+            console.log(position);
+            
+            true_position = position + old_position;
+            
+            // スムーススクロール
+            $('#wrapper').animate({scrollTop:true_position}, 2000);
+            old_position = true_position;
+            return false;
+        });
+    });
+    
     /*   
     $(window).load(function(){
         $(".firstview").snowfall({
@@ -55,7 +78,7 @@
    
     <div id="wrapper">
         <!--ファーストビューの表示:文字以外は背景画像と降ってくるピースで構成-->
-        <div class="firstview">
+        <div id="firstview">
             <div class="firstview-title">
                 <h1>首都大学東京</h1>
                 <span class="h1-sub">システムデザイン学部・研究科</span>
@@ -69,7 +92,7 @@
         </div>
 
         <!-- 挨拶 -->
-        <section class="greeting">
+        <section id="greeting">
            <div id = "greeting-message">
                <h1>インダストリアルアートコース・学域 卒業・修了制作展2017</h1>
                <p>本コースの卒業・修了制作展は本年度で8回目を迎えました。12の研究室を抱える本コースで学んできた学生たちの作品テーマはプロダクトからメディアの多岐にわたり、同じものはひとつとしてありません。
@@ -82,7 +105,7 @@
         </section>
 
         <!-- コンセプトの説明 -->
-        <section class="concept">
+        <section id="concept">
             <img src="img/concept-toge.png" />
             <h1>CONCEPT</h1>
             <hr>
@@ -96,7 +119,7 @@
         </section>
 
         <!-- インフォメーション -->
-        <section class="information">
+        <section id="information">
             <h1>INFORMATION</h1>
             <hr>
             <div id="informationbox">
@@ -140,7 +163,7 @@
         </section>
 
 
-       <section class="exhibitors">
+       <section id="exhibitors">
             <h1>EXHIBITORS</h1>
             <hr>
             <div id="exhibitors-info">
@@ -188,13 +211,13 @@
         </section>
         
        
-        <section class="blog">
+        <section id="blog">
             <h1>BLOG</h1>
             <hr>
             <a href="https://iagw2017-blog.blogspot.jp/"><img src="img/blog-jump-button.png" alt="BLOG" style="width:300px; margin-top:100px;"></a>
         </section>
 
-        <section class="other-exhibition">
+        <section id="other-exhibition">
             <h1>学外展情報</h1>
             <hr>
             <div id="exhibition-exhibitions">
@@ -249,11 +272,11 @@
     
         <!-- ヘッダーバー：ヘッダーバーと言いつつ画面下に固定で配置？ -->
     <section class="header">
-        <a class ="header_content" href="#">CONCEPT</a>
-        <a class ="header_content" href="#">INFORMATION</a>
-        <a class ="header_content" href="#">HOME</a>
-        <a class ="header_content" href="#">BLOG</a>
-        <a class ="header_content" href="#">EXHIBITORS</a>
+        <a class ="header_content" href="#concept">CONCEPT</a>
+        <a class ="header_content" href="#information">INFORMATION</a>
+        <a class ="header_content" href="#firstview">HOME</a>
+        <a class ="header_content" href="#blog">BLOG</a>
+        <a class ="header_content" href="#exhibitors">EXHIBITORS</a>
         <hr style="width:90%;">
     </section>
     

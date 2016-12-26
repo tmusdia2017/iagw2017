@@ -118,7 +118,7 @@ h1{
 }
 
 
-.greeting{
+#greeting{
     float: left;
     background:#ffffff;
     width: 100%;
@@ -155,7 +155,7 @@ h1{
     
 }
 
-.concept{
+#concept{
     float: left;
     width: 100%;
     height:90vh;
@@ -164,11 +164,11 @@ h1{
     display: block;
 }
 
-.concept img{
+#concept img{
     width: 100%;
 }
 
-.concept hr{
+#concept hr{
     width: 170px;
     margin: 0 auto;
     border: 1px solid black;
@@ -218,7 +218,7 @@ h1{
     letter-spacing:1px;
 }
 
-.information{
+#information{
     float: left;
     width: 100%;
     height:auto;
@@ -229,11 +229,11 @@ h1{
     text-align: center;
 }
 
-.information h1{
+#information h1{
     margin-top: 80px;
 }
 
-.information hr{
+#information hr{
     width: 260px;
     margin: 0 auto;
     border: 1px solid black;
@@ -336,36 +336,36 @@ h1{
     clear: left;
 }
 
-.information img{
+#information img{
     width: 100%;
     height: auto;
     margin-bottom: -10px;
 }
 
-.blog{
+#blog{
     float:left;
     width:100%;
     height: 300px;
 }
 
-.blog hr{
+#blog hr{
     width: 6em;
     margin: 0 auto;
     border: 1px solid black;
 }
 
 
-.other-exhibition{
+#other-exhibition{
     float: left;
     width:100%;
     height: 90vh;
 }
 
-.other-exhibition h1{
+#other-exhibition h1{
     margin-top: 40px;
 }
 
-.other-exhibition hr{
+#other-exhibition hr{
     width: 10em;
     margin: 0 auto;
     border: 1px solid black;
@@ -421,7 +421,7 @@ h1{
 }
 
     
-.exhibitors{
+#exhibitors{
     float: left;
     width: 100%;
     height:auto;
@@ -431,11 +431,11 @@ h1{
     text-align: center;
 }
 
-.exhibitors h1{
+#exhibitors h1{
     margin-top: 80px;
 }
 
-.exhibitors hr{
+#exhibitors hr{
     width: 260px;
     margin: 0 auto;
     border: 1px solid black;
