@@ -522,15 +522,14 @@ h1{
 }
 
 #masters{
-    width: 250px;
+    width: 270px;
     margin: 0 auto;
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
 }
 
 #masters span{
-    width: 120px;
+    width: 130px;
 }
 
 
@@ -540,7 +539,6 @@ h1{
     margin-bottom: 20px;
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
 }
 
 #bachelors span{
@@ -1028,7 +1026,7 @@ h1{
     }
 
     #lavo-product .lavolatories:hover {
-        min-width: 220px;
+        min-width: 300px;
         max-width: 300px;
         font-size: 12px;
         height: 50px;
@@ -1041,7 +1039,7 @@ h1{
     }
 
     #lavo-media .lavolatories:hover {
-        min-width: 220px;
+        min-width: 300px;
         max-width: 300px;
         font-size: 12px;
         height: 50px;
