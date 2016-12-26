@@ -465,7 +465,7 @@ h1{
     margin-bottom: 5px;
 }
 
-#mastars{
+#masters{
     width: 250px;
     margin: 0 auto;
     display: flex;
@@ -473,13 +473,13 @@ h1{
     justify-content: space-around;
 }
 
-#mastars span{
+#masters span{
     width: 120px;
 }
 
 
 #bachelors{
-    width: 250px;
+    width: 270px;
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
@@ -488,7 +488,7 @@ h1{
 }
 
 #bachelors span{
-    width: 120px;
+    width: 130px;
 }
 
 #lavo{
