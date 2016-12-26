@@ -382,6 +382,7 @@ h1{
 
 .exhibitionbox{
     width: 350px;
+    min-width: 300px;
     height: 400px;
     border: 2px solid black;
     margin: 30px;
