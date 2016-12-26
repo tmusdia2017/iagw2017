@@ -49,7 +49,21 @@
            
     });
     */
+    
+    
     $(function(){
+        
+        //$("#exhibitors-info").hide();
+        
+        $(".lavolatories").click(function(){
+            //$("#exhibitors-info").fadeIn(1000);
+            var position = $(".exhibitors").offset().top;
+            $("html,body").animate({scrollTop: position},1000);
+        });
+        
+        
+        
+        //exhibitors一覧を表示する処理
         $("#transportation").click(function() {
             $("#exhibitors-info img").attr("src","img/torapo-logo.png")
             $("#exhibitors-info h3").html("トランスポーテーションデザインスタジオ");
