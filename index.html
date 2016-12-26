@@ -37,41 +37,88 @@
         });
     });
     
-    /*   
+    
+    var sW,sH,pieceSize;
+    
+    //ウィンドウサイズを取得する
+    function getWindowSize() {   
+        sW = window.innerWidth;
+        sH = window.innerHeight;
+        
+        pieceSize = sW / 13;
+        
+        if(pieceSize < 74 ){
+            pieceSize = 74;
+        }
+    }
+    
+    //ウィンドウサイズの取得
+    getWindowSize();
+    
+    //ピースを降らせる記述(後)
     $(window).load(function(){
-        $(".firstview").snowfall({
+        $("#firstview").snowfall({
             flakeColor:"#ffffff", //色を指定
             round:false,   //丸くする、丸が嫌ならfalseを入れる
             shadow:false,  //影をつける、影を付けたければtrueを入れる
-            minSize:50,     //好みで最小の大きさを指定
-            maxSize:100,    //好みで最大の大きさを指定
-            flakeCount:10, //表示数
+            minSize:pieceSize,     //好みで最小の大きさを指定
+            maxSize:pieceSize,    //好みで最大の大きさを指定
+            flakeCount:4, //表示数
             minspeed:3,    //最小落下速度
-            maxSpeed:5,  //最大落下速度
+            maxSpeed:3,  //最大落下速度
             //collection : "#norunoruwarota", //積もる要素を指定
-            image : "img/piece1.png",// オリジナル画像を使用する場合
-            flakeIndex :"5"
+            image : ["img/piece/piece-w1.png",
+                    "img/piece/piece-w2.png",
+                    "img/piece/piece-w3.png",
+                    "img/piece/piece-w4.png",
+                    "img/piece/piece-w5.png",
+                    "img/piece/piece-w6.png",
+                    "img/piece/piece-w7.png",
+                    "img/piece/piece-w8.png",
+                    "img/piece/piece-w9.png",
+                    "img/piece/piece-w10.png",
+                    "img/piece/piece-w11.png",
+                    "img/piece/piece-b1.png",
+                    "img/piece/piece-b2.png",
+                    "img/piece/piece-b3.png",
+                    "img/piece/piece-b4.png",],// オリジナル画像を使用する場合    
+            flakeIndex :"5",
         });  
            
     });
-    console.log("ok2");
+    
+    //ピースを降らせる記述(前)
     $(window).load(function(){
-        $(".firstview").snowfall({
+        $("#firstview").snowfall({
             flakeColor:"#ffffff", //色を指定
             round:false,   //丸くする、丸が嫌ならfalseを入れる
             shadow:false,  //影をつける、影を付けたければtrueを入れる
-            minSize:50,     //好みで最小の大きさを指定
-            maxSize:100,    //好みで最大の大きさを指定
-            flakeCount:3, //表示数
+            minSize:pieceSize,     //好みで最小の大きさを指定
+            maxSize:pieceSize,    //好みで最大の大きさを指定
+            flakeCount:2, //表示数
             minspeed:3,    //最小落下速度
-            maxSpeed:5,  //最大落下速度
+            maxSpeed:3,  //最大落下速度
             //collection : "#norunoruwarota", //積もる要素を指定
-            image : "img/piece1.png",// オリジナル画像を使用する場合
-            flakeIndex :"888"
+            image : ["img/piece/piece-w1.png",
+                    "img/piece/piece-w2.png",
+                    "img/piece/piece-w3.png",
+                    "img/piece/piece-w4.png",
+                    "img/piece/piece-w5.png",
+                    "img/piece/piece-w6.png",
+                    "img/piece/piece-w7.png",
+                    "img/piece/piece-w8.png",
+                    "img/piece/piece-w9.png",
+                    "img/piece/piece-w10.png",
+                    "img/piece/piece-w11.png",
+                    "img/piece/piece-b1.png",
+                    "img/piece/piece-b2.png",
+                    "img/piece/piece-b3.png",
+                    "img/piece/piece-b4.png",],// オリジナル画像を使用する場合
+            flakeIndex :"888",
         });  
            
     });
-    */
+    
     
     
     $(function(){
@@ -212,7 +259,9 @@
                 <span class="h1-eng">Tokyo Metropolitan University Faculty of System Design</span>
                 <span class="h1-eng">Industrial Art Graduation Exhibition</span>
             </div>
-            <img src="img/firstview-toge.png" />
+            <div id="firstview-togediv">
+                <img src="img/firstview-toge.png" class="togetoges"/>
+            </div>
         </div>
 
         <!-- 挨拶 -->
@@ -230,7 +279,9 @@
 
         <!-- コンセプトの説明 -->
         <section id="concept">
-            <img src="img/concept-toge.png" />
+            <div id="concept-togediv">
+                <img src="img/concept-toge.png" class="togetoges" />
+            </div>
             <h1>CONCEPT</h1>
             <hr>
             <div id="concept-center">
@@ -280,8 +331,10 @@
                 </div>
                 <div id="maplink-btn"></div>
             </div>
-        
-            <img src="img/firstview-toge.png">
+            <div id="info-togediv">
+                <img src="img/firstview-toge.png" class="togetoges" />
+            </div>
+            
 
 
         </section>

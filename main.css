@@ -51,15 +51,16 @@ h1{
     background-size: contain;
     background-repeat: repeat-y;
     display: block;
-
 }
 
 .firstview-title{
+    position: relative;
     width: 800px;
     height: 270px;
     text-align: left;
     margin: 0 auto;
     margin-top: 200px;
+    z-index: 50;
 }
 
 #firstview h1{
@@ -97,12 +98,15 @@ h1{
     margin-left: 5px;
 }
 
-#firstview img{
+#firstview-togediv{
     position: absolute;
     width: 100%;
-    left: 0px;
+    height: auto;
     bottom: 0px;
     margin-bottom: -5px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
 }
         
 .header_content{
@@ -164,8 +168,12 @@ h1{
     display: block;
 }
 
-#concept img{
+#concept-togediv{
     width: 100%;
+    height: auto;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
 }
 
 #concept hr{
@@ -336,10 +344,12 @@ h1{
     clear: left;
 }
 
-#information img{
+#info-togediv{
     width: 100%;
     height: auto;
     margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
 }
 
 #blog{
@@ -364,6 +374,7 @@ h1{
 #other-exhibition h1{
     margin-top: 40px;
 }
+
 
 #other-exhibition hr{
     width: 10em;
@@ -390,6 +401,7 @@ h1{
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 28px;
+    display: block;
 }
 .other-exhibitions{
     margin: 20px;
@@ -553,6 +565,12 @@ h1{
     background-image: url(img/lavo-product-bg.png);
     background-position: right;
 }
+
+.togetoges{
+    width: 100%;
+    height: 10.2%;
+    min-width: 970px;
+}
     
 #footer{
     width:100%;
@@ -563,4 +581,5 @@ h1{
     background-color: #f5ea57;
     font-size: 12px;
     font-weight: 600;
+    display: block;
 }

@@ -137,7 +137,7 @@ if (!Date.now)
 
                 if(options.image){
                     flakeMarkup = document.createElement("img");
-                    flakeMarkup.src = options.image;
+                    flakeMarkup.src = options.image[random(0,options.image.length-1)];
                 }else{
                     flakeMarkup = document.createElement("div");
                     $(flakeMarkup).css({'background' : options.flakeColor});
