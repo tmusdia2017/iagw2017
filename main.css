@@ -119,7 +119,7 @@ h1{
 .header a{
     margin: 0 auto;
     text-decoration: none;
-    color: black;
+    color: #2C3C42;
     font-size: 20px;    
 }
 
@@ -133,7 +133,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    color: #2C3C42;
+    color: #5C6a70;
     text-align: center;
 }
 
@@ -658,13 +658,18 @@ h1{
     #header-small{
         display: block;
         position: absolute;
-        z-index: 100;
+        z-index: 10000;
         height: 10vh;
         top:0;
     }
     
+    .drawer-menu li{
+        margin-top: 30px;
+        margin-bottom: 30px; 
+    }
+    
     .drawer-navbar{
-        margin-top: 10px;
+        margin: 0 auto;
     }
     
     .drawer-container{
@@ -672,8 +677,46 @@ h1{
     }
     
     .drawer-icon{
-        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        top: 30%;
+        left: 40%;
+        height: 40%;
+        width: 20%;
     }
+    
+    .drawer-icon img{
+        height: 30px;
+    }
+    
+    .drawer-hamburger-icon:before{
+        height: 3px;
+        background-color: #2C3C42;
+    }
+    
+    .drawer-hamburger-icon{
+        height: 3px;
+        background-color: #2C3C42;
+    }
+    
+    .drawer-hamburger-icon:after{
+        height: 3px;
+        background-color: #2C3C42;
+    }
+    
+    .drawer-navbar .drawer-nav{
+        padding-top: 10vh;
+    }
+    
+    .drawer--right .drawer-nav{
+        right: -50vw;
+    }
+    
+    .drawer-nav{
+        width:50vw;
+    }
+    
     
     #wrapper{
         top:10vh;
