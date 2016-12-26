@@ -24,23 +24,52 @@
     
     $(function(){
         
-        var true_position = 0;
-        var old_position = 0;
-        
         // ヘッダーのリンクをクリックした場合に処理
         $('.header_content').click(function() {
+            
+            var y = $("#wrapper").scrollTop();
+            
             //href内を確認して取得
             var target= $(this).attr("href");
             console.log(target);
             // 移動先を取得
             var position = $(target).offset().top;
-            console.log(position);
+            console.log("position " + position);
+ 
+            console.log("y " +y);
             
-            true_position = position + old_position;
+            var pos = y + position;
             
             // スムーススクロール
-            $('#wrapper').animate({scrollTop:true_position}, 2000);
-            old_position = true_position;
+            $('#wrapper').animate({scrollTop:pos}, 1000);
+
+            return false;
+        });
+    });
+    
+    
+    //研究室クリックしたら
+    $(function(){
+        
+        // ヘッダーのリンクをクリックした場合に処理
+        $('.lavolatories').click(function() {
+            
+            var y = $("#wrapper").scrollTop();
+            
+            //href内を確認して取得
+            var target= $(this).attr("href");
+            console.log(target);
+            // 移動先を取得
+            var position = $(target).offset().top;
+            console.log("position " + position);
+ 
+            console.log("y " +y);
+            
+            var pos = y + position;
+            
+            // スムーススクロール
+            $('#wrapper').animate({scrollTop:pos}, 1000);
+
             return false;
         });
     });
@@ -396,21 +425,21 @@
             </div>
             <div id="lavo">
                 <div id="lavo-product">
-                    <div class="lavolatories" id="transportation">トランスポーテーション<br>デザインスタジオ</div>
-                    <div class="lavolatories" id="equip">製品・サービス<br>デザインスタジオ</div>
-                    <div class="lavolatories" id="interface">インターフェース<br>デザインスタジオ</div>
-                    <div class="lavolatories" id="space">空間デザインスタジオ</div>
-                    <div class="lavolatories" id="interior">インテリアデザインスタジオ</div>
-                    <div class="lavolatories" id="ergonomic">エルゴノミック<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="transportation" href="#exhibitors">トランスポーテーション<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="equip" href="#exhibitors">製品・サービス<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="interface" href="#exhibitors">インターフェース<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="space" href="#exhibitors">空間デザインスタジオ</div>
+                    <div class="lavolatories" id="interior" href="#exhibitors">インテリアデザインスタジオ</div>
+                    <div class="lavolatories" id="ergonomic" href="#exhibitors">エルゴノミック<br>デザインスタジオ</div>
                 </div>
                 
                 <div id="lavo-media">
-                    <div class="lavolatories" id="visual"><span>ヴィジュアルコミュニケーション<br>デザインスタジオ</span></div>
-                    <div class="lavolatories" id="network">ネットワーク<br>デザインスタジオ</div>
-                    <div class="lavolatories" id="interactive">インタラクティブ<br>アートスタジオ</div>
-                    <div class="lavolatories" id="software">ソフトウェア<br>デザインスタジオ</div>
-                    <div class="lavolatories" id="kinematograph">映像デザインスタジオ</div>
-                    <div class="lavolatories" id="editorial">エディティング<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="visual" href="#exhibitors"><span>ヴィジュアルコミュニケーション<br>デザインスタジオ</span></div>
+                    <div class="lavolatories" id="network" href="#exhibitors">ネットワーク<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="interactive" href="#exhibitors">インタラクティブ<br>アートスタジオ</div>
+                    <div class="lavolatories" id="software" href="#exhibitors">ソフトウェア<br>デザインスタジオ</div>
+                    <div class="lavolatories" id="kinematograph" href="#exhibitors">映像デザインスタジオ</div>
+                    <div class="lavolatories" id="editorial" href="#exhibitors">エディティング<br>デザインスタジオ</div>
                 </div>
             </div>
         </section>
