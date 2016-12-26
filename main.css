@@ -289,14 +289,14 @@ h1{
 }
 
 #maplink-btn{
-    width: 300px;
-    height: 40px;
+    width: 172px;
+    height: 36px;
     background-image: url(img/go-to-map.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 34px;
     
 }
 
@@ -916,14 +916,14 @@ h1{
     }
 
     #maplink-btn{
-        width: 300px;
-        height: 40px;
+        width: 172px;
+        height: 36px;
         background-image: url(img/go-to-map.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         margin-top: 60px;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
 
     }
 
@@ -991,18 +991,6 @@ h1{
         line-height: 17px;
         clear: left;
     }
-
-    #maplink-btn{
-        width: 300px;
-        height: 40px;
-        background-image: url(img/go-to-map.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-    
 
     #exhibitors h1{
         font-size: 20px;
