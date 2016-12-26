@@ -595,6 +595,7 @@ h1{
     align-items: center;
     justify-content: center;
     border: 1px solid lightgray;
+    cursor: pointer;
     
 }
 
