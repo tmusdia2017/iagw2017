@@ -43,6 +43,7 @@ h1{
 
 
 #firstview{
+    position: relative;
     float: left;
     width: 100%;
     height:90vh;
@@ -51,7 +52,8 @@ h1{
     background-position: center;
     background-size: contain;
     background-repeat: repeat-y;
-    display: block;
+    display: flex;
+    align-items: center;
     color: #333B3F;
 }
 
@@ -61,7 +63,6 @@ h1{
     height: 270px;
     text-align: left;
     margin: 0 auto;
-    margin-top: 200px;
     z-index: 50;
 }
 
@@ -120,7 +121,8 @@ h1{
     margin: 0 auto;
     text-decoration: none;
     color: black;
-    font-size: 20px;    
+    font-size: 20px;
+    color: #5C6A70;
 }
 
 
@@ -159,6 +161,11 @@ h1{
     align-content: space-around;
     justify-content: space-around;
     
+}
+
+#snsIcons img{
+    width:70px; 
+    margin:10px;
 }
 
 #concept{
@@ -233,6 +240,7 @@ h1{
 }
 
 #information{
+    position: relative;
     float: left;
     width: 100%;
     height:auto;
@@ -357,6 +365,8 @@ h1{
 }
 
 #info-togediv{
+    position: absolute;
+    bottom: 0px;
     width: 100%;
     height: auto;
     margin-bottom: -10px;
@@ -677,6 +687,447 @@ h1{
     
     #wrapper{
         top:10vh;
+        width: 100vw;
+        overflow-x: hidden;
     }
     
+    .firstview-title{
+        position: relative;
+        width: 290px;
+        height: 270px;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: -5vh;
+        z-index: 50;
+    }
+
+    
+    
+    #firstview h1{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing:1px;4
+    }
+
+    .h1-sub{
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing:1px;
+        line-height: 25px;
+        padding-left: 1px;
+        float: left;
+        clear: left;
+    }
+
+    .h1-date{
+        font-weight: 800;
+        font-size: 13px;
+        letter-spacing:1px;
+        float: left;
+        clear: left;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+
+    .h1-eng{
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing:1px;
+        float: left;
+        clear: left;
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    
+    #greeting-message h1{
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 30px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+
+    #greeting-message{
+        font-size: 14px;
+        margin: 17.5%;
+        max-width: 800px;
+        min-width: 300px;
+        width: 65vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        line-height: 25px;
+    }
+
+    #snsIcons{
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+
+    }
+    
+    #snsIcons img{
+        width:50px; 
+        margin:10px;
+    }
+
+    
+    #concept h1{
+        font-size: 20px;
+        color: #5C6A70;
+        margin-top: 10px;
+    }
+
+    #concept-title-hr{
+        width: 130px;
+        margin: 0 auto;
+        border: 1px solid #5C6A70;
+    }
+    
+    #concept-center{
+        float: left;
+        width: 100%;
+        height:  60vh;
+        display: flex;
+        align-items: center;
+    }
+    .concept-concept{
+        margin: 0 auto;
+        max-width: 300px;
+        width: auto;
+        text-align: left;
+        display: block;
+    }
+
+    .concept-concept hr{
+        width: 250px;
+        border: 1px solid black;
+        margin-top: -15px;
+    }
+
+    .concept-piece{
+        font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 70px;
+        letter-spacing:5px;
+    }
+
+    .concept-piece-ja{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 55px;
+        letter-spacing:5px;
+    }
+
+    .concept-concept p{
+        font-weight:100;
+        font-size: 12px;
+        margin-top: 30px;
+        line-height: 25px;
+        letter-spacing:2px;
+    }
+    
+    #kotoshi{
+        margin-top: 4px;
+    }
+
+
+    #information h1{
+        font-size: 20px;
+        margin-top: 80px;
+        color: #5C6A70;
+    }
+
+    #information hr{
+        width: 190px;
+        margin: 0 auto;
+        border: 1px solid #5C6A70;
+    }
+
+    #informationbox{
+        width: 80vw;
+        height: auto;
+        min-height: 49vh;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        background-color: white;
+        display: flex; 
+        justify-content: space-around;
+        flex-wrap:wrap;
+    }
+
+    #information-informations{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+
+    #information-informations hr{
+        border: 1px solid #898989;
+    }
+
+    #maplink-btn{
+        width: 300px;
+        height: 40px;
+        background-image: url(img/go-to-map.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+
+    }
+
+
+    #informationbox-left{
+        min-width: 300px;
+        max-width: 45%;
+        height: auto;
+        margin-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #informationbox-left hr{
+        float: left;
+        margin-left: 0px;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+    #informationbox-right{
+        font-size: 14px;
+        min-width: 300px;
+        max-width: 45%;
+        height: auto;
+        margin-top: 30px;
+        padding-left: 70px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+
+    #informationbox-right dd{
+        padding-left:1em;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #informationbox-right dt{
+        margin-top: 7px;
+        font-size: 14px;
+    }
+
+
+    .info-div-1{
+        float: left;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 23px;
+        clear: left;
+    }
+
+    .info-div-2{
+        font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+        float: left;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 17px;
+        clear: left;
+    }
+
+    #maplink-btn{
+        width: 300px;
+        height: 40px;
+        background-image: url(img/go-to-map.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+
+    #exhibitors h1{
+        font-size: 20px;
+        margin-top: 80px;
+        color: #5C6A70;
+    }
+
+    #exhibitors hr{
+        width: 170px;
+        margin: 0 auto;
+        border: 1px solid #5C6A70;
+    }    
+
+    #exhibitors-info{
+        max-width: 50vw;
+        min-width: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border: 1px solid lightgray;
+        text-align: center;
+    }
+
+
+    .lavolatories{
+        min-width: 300px;
+        max-width: 300px;
+        font-size: 12px;
+        height: 50px;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+
+    }
+
+    #lavo-product .lavolatories:hover {
+        min-width: 220px;
+        max-width: 300px;
+        font-size: 12px;
+        height: 50px;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #76B9B7;
+        box-shadow:1px 0 1px 1px #76B9B7 inset;
+    }
+
+    #lavo-media .lavolatories:hover {
+        min-width: 220px;
+        max-width: 300px;
+        font-size: 12px;
+        height: 50px;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #F5EA57;
+        box-shadow:1px 0 1px 1px #F5EA57 inset;
+    }
+
+    #lavo-media .lavolatories{
+        background-image: url(img/lavo-media-bg.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    #lavo-product .lavolatories{
+        background-image: url(img/lavo-product-bg.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    
+    
+    #lavo-product{
+        min-width: 350px;
+        max-width: 48%;
+        height: auto;
+        padding-bottom: 8px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        border-left: 5px solid #76B9B7;
+        border-bottom: 1px solid lightgray;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    #lavo-media{
+        min-width: 350px;
+        max-width: 48%;
+        height: auto;
+        padding-bottom: 8px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        border-left: 5px solid #F5EA57;
+        border-bottom: 1px solid lightgray;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    
+    
+    #blog h1{
+        font-size: 20px;
+        margin-top: 40px;
+        color: #5C6A70;
+    }
+
+    #blog hr{
+        width: 6em;
+        margin: 0 auto;
+        border: 
+    }
+
+    #other-exhibition h1{
+        font-size: 20px;
+        margin-top: 40px;
+        color: #5C6A70;
+    }
+
+    #other-exhibition hr{
+        width: 140px;
+        margin: 0 auto;
+        border: 1px solid #5C6A70;
+    }
+
+    .other-exhibitions{
+        margin: 20px;
+    }
+
+    .exhibitionbox span{
+        float: left;
+        color: #5C6A70;
+        font-size: 16px;
+    }
+
+    .exhibitionbox dl{
+        float: left;
+        margin: 5%;
+        margin-top:5%;
+        margin-left: 10%;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height:25px;
+        clear: right;
+        text-align: left;
+    }
+
+    .exhibitionbox dd{
+        padding-left: 1em;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    
+    footer p{
+        font-size: 10px;
+    }
+
+}
+
+body{
+    overflow-x: hidden;
 }
