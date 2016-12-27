@@ -39,6 +39,7 @@ h1{
     width: 100vw;
     height: 90vh;
     overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
 
 
