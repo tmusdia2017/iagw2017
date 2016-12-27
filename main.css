@@ -691,10 +691,8 @@ h1{
     }
     
     .drawer-navbar{
+        display: block;
         margin: 0 auto;
-    }
-    
-    .drawer-container{
         height: 10vh;
     }
     
