@@ -795,6 +795,10 @@ h1{
         margin-top: 5px;
     }
     
+    #greeting{
+        min-height: 90vh;
+    }
+    
     #greeting-message h1{
         font-size: 15px;
         letter-spacing: 1px;
@@ -829,6 +833,10 @@ h1{
     #snsIcons img{
         width:13vw;; 
         margin:10px;
+    }
+    
+    #concept{
+        min-height: 90vh;
     }
 
     
