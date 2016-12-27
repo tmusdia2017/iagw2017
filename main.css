@@ -679,10 +679,12 @@ h1{
     
     #header-small{
         display: block;
-        position: absolute;
+        position: fixed;
         z-index: 10000;
+        width: 100%;
         height: 10vh;
         top:0;
+        left: 0;
     }
     
     .drawer-menu li{
