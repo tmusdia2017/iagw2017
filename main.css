@@ -759,7 +759,7 @@ h1{
     
     
     #firstview h1{
-        font-size: 32px;
+        font-size: 25px;
         font-weight: 600;
         line-height: 39px;
         letter-spacing:1px;4
@@ -767,7 +767,7 @@ h1{
 
     .h1-sub{
         font-weight: 600;
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing:1px;
         line-height: 25px;
         padding-left: 1px;
@@ -781,7 +781,7 @@ h1{
         letter-spacing:1px;
         float: left;
         clear: left;
-        margin-top: 15px;
+        margin-top: 8px;
         margin-left: 2px;
     }
 
@@ -804,18 +804,21 @@ h1{
     }
 
     #greeting-message{
-        font-size: 14px;
+        font-size: 12px;
         margin: 17.5%;
-        max-width: 800px;
-        min-width: 300px;
+        min-width: 80vw;
         width: 65vw;
         margin-top: 5%;
         margin-bottom: 5%;
         line-height: 25px;
     }
+    
+    #greeting-message p{
+        line-height: 26px;
+    }
 
     #snsIcons{
-        width: 40vw;
+        width: 50vw;
         display: flex;
         flex-wrap: wrap;
         align-content: space-around;
@@ -824,7 +827,7 @@ h1{
     }
     
     #snsIcons img{
-        width:50px; 
+        width:13vw;; 
         margin:10px;
     }
 
@@ -839,6 +842,7 @@ h1{
         width: 130px;
         margin: 0 auto;
         border: 1px solid #5C6A70;
+        margin-bottom: 0px;
     }
     
     #concept-center{
@@ -850,8 +854,8 @@ h1{
     }
     .concept-concept{
         margin: 0 auto;
-        max-width: 300px;
         width: auto;
+        max-width: 80vw;
         text-align: left;
         display: block;
     }
@@ -881,7 +885,7 @@ h1{
         font-weight:100;
         font-size: 12px;
         margin-top: 30px;
-        line-height: 25px;
+        line-height: 20px;
         letter-spacing:2px;
     }
     
@@ -903,7 +907,7 @@ h1{
     }
 
     #informationbox{
-        width: 80vw;
+        width: 87vw;
         height: auto;
         min-height: 49vh;
         margin: 0 auto;
@@ -945,7 +949,7 @@ h1{
         min-width: 280px;
         height: auto;
         margin-top: 30px;
-        padding-left: 30px;
+        padding-left: 0px;
         text-align: left;
         display: flex;
         align-items: center;
@@ -956,17 +960,17 @@ h1{
         float: left;
         margin-left: 0px;
         width: 90%;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
 
 
     #informationbox-right{
-        font-size: 14px;
+        font-size: 12px;
         min-width: 280px;
         height: auto;
         margin-top: 30px;
-        padding-left: 70px;
+        padding-left: 40px;
         text-align: left;
         display: flex;
         align-items: center;
@@ -975,18 +979,18 @@ h1{
 
     #informationbox-right dd{
         padding-left:1em;
-        font-size: 12px;
+        font-size: 11px;
         margin-top: 5px;
     }
     #informationbox-right dt{
         margin-top: 7px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
     .info-div-1{
         float: left;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
         letter-spacing: 1px;
         line-height: 23px;
@@ -996,7 +1000,7 @@ h1{
     .info-div-2{
         font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
         float: left;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 600;
         letter-spacing: 1px;
         line-height: 17px;
@@ -1157,13 +1161,15 @@ h1{
     .exhibitionbox{
         min-width: 300px;
         max-width: 80%;
+        padding-top: 20px;
     }
     
     
     .exhibitionbox span{
         float: left;
         color: #5C6A70;
-        font-size: 15px;
+        font-size: 13px;
+        line-height: 19px;
     }
 
     .exhibitionbox dl{
@@ -1187,7 +1193,7 @@ h1{
     }
     
     footer p{
-        font-size: 10px;
+        font-size: 8pt;
     }
 
 }
