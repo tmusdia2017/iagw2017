@@ -796,7 +796,7 @@ h1{
     }
     
     #greeting{
-        min-height: 90vh;
+        min-height: 600px;
     }
     
     #greeting-message h1{
@@ -836,7 +836,7 @@ h1{
     }
     
     #concept{
-        min-height: 90vh;
+        min-height: 600px;
     }
 
     
