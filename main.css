@@ -942,8 +942,7 @@ h1{
 
 
     #informationbox-left{
-        min-width: 300px;
-        max-width: 45%;
+        min-width: 280px;
         height: auto;
         margin-top: 30px;
         padding-left: 30px;
@@ -964,8 +963,7 @@ h1{
 
     #informationbox-right{
         font-size: 14px;
-        min-width: 300px;
-        max-width: 45%;
+        min-width: 280px;
         height: auto;
         margin-top: 30px;
         padding-left: 70px;
@@ -1018,18 +1016,35 @@ h1{
     }    
 
     #exhibitors-info{
-        max-width: 50vw;
-        min-width: 350px;
+        max-width: 80vw;
+        min-width: 300px;
         margin: 0 auto;
         margin-top: 30px;
         border: 1px solid lightgray;
         text-align: center;
     }
-
+    
+    #exhibitors-info h3{
+        font-size: 12px;
+    }
+    
+    #exhibitors-info span{
+        font-size: 12px;
+    }
+    
+    #exhibitors-info img{
+        width: 100px;
+    }
+    
+    #lavo{
+        max-width: 80vw;
+        min-width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
 
     .lavolatories{
-        min-width: 300px;
-        max-width: 300px;
+        width: 95%;
         font-size: 12px;
         height: 50px;
         margin: 5px;
@@ -1041,8 +1056,7 @@ h1{
     }
 
     #lavo-product .lavolatories:hover {
-        min-width: 300px;
-        max-width: 300px;
+        width: 95%;
         font-size: 12px;
         height: 50px;
         margin: 5px;
@@ -1054,8 +1068,7 @@ h1{
     }
 
     #lavo-media .lavolatories:hover {
-        min-width: 300px;
-        max-width: 300px;
+        width: 95%;
         font-size: 12px;
         height: 50px;
         margin: 5px;
@@ -1080,8 +1093,8 @@ h1{
     
     
     #lavo-product{
-        min-width: 350px;
-        max-width: 48%;
+        min-width: 300px;
+        max-width: 100%;
         height: auto;
         padding-bottom: 8px;
         display: flex;
@@ -1095,8 +1108,8 @@ h1{
     }
 
     #lavo-media{
-        min-width: 350px;
-        max-width: 48%;
+        min-width: 300px;
+        max-width: 100%;
         height: auto;
         padding-bottom: 8px;
         display: flex;
@@ -1134,15 +1147,23 @@ h1{
         margin: 0 auto;
         border: 1px solid #5C6A70;
     }
+    
+    
 
     .other-exhibitions{
         margin: 20px;
     }
-
+    
+    .exhibitionbox{
+        min-width: 300px;
+        max-width: 80%;
+    }
+    
+    
     .exhibitionbox span{
         float: left;
         color: #5C6A70;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .exhibitionbox dl{
@@ -1150,7 +1171,7 @@ h1{
         margin: 5%;
         margin-top:5%;
         margin-left: 10%;
-        font-size: 15px;
+        font-size: 13x;
         font-weight: 600;
         letter-spacing: 1px;
         line-height:25px;
@@ -1160,7 +1181,7 @@ h1{
 
     .exhibitionbox dd{
         padding-left: 1em;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         line-height: 20px;
     }
