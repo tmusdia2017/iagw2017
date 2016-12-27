@@ -153,7 +153,8 @@
         
         //exhibitors一覧を表示する処理
         $("#transportation").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/trance.png")
+            $("#exhibitors-info img").attr("src","img/lavo/trance.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/2016/12/blog-post_19.html");
             $("#exhibitors-info h3").html("トランスポーテーションデザインスタジオ");
             $("#labo-name-en").html("Transportation Design Studio");
             $("#masters-title").html("修士");
@@ -162,7 +163,8 @@
         });
         
         $("#equip").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/equip.png")
+            $("#exhibitors-info img").attr("src","img/lavo/equip.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("製品・サービスデザインスタジオ");
             $("#labo-name-en").html("Equipment Design Studio");
             $("#masters-title").html("修士");
@@ -171,7 +173,8 @@
         });
         
         $("#interface").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/interface.png")
+            $("#exhibitors-info img").attr("src","img/lavo/interface.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("インターフェースデザインスタジオ");
             $("#labo-name-en").html("Interface Design Studio");
             $("#masters-title").html("修士");
@@ -180,7 +183,8 @@
         });
 
         $("#space").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/space.png")
+            $("#exhibitors-info img").attr("src","img/lavo/space.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/2016/12/blog-post_26.html");
             $("#exhibitors-info h3").html("空間デザインスタジオ");
             $("#labo-name-en").html("Spacial Design Studio");
             $("#masters-title").html("修士");
@@ -189,7 +193,8 @@
         });
 
         $("#interior").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/int.png")
+            $("#exhibitors-info img").attr("src","img/lavo/int.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("インテリアデザインスタジオ");
             $("#labo-name-en").html("Interior Design Studio");
             $("#masters-title").html("修士");
@@ -198,7 +203,8 @@
         });
         
         $("#ergonomic").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/elgo.png")
+            $("#exhibitors-info img").attr("src","img/lavo/elgo.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("エルゴノミックデザインスタジオ");
             $("#labo-name-en").html("Ergonomic Design Studio");
             $("#masters-title").html("修士");
@@ -207,7 +213,8 @@
         });
         
         $("#visual").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/visual.png")
+            $("#exhibitors-info img").attr("src","img/lavo/visual.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("ヴィジュアルコミュニケーションデザインスタジオ");
             $("#labo-name-en").html("Visual Communication Design Studio");
             $("#masters-title").html("修士");
@@ -216,7 +223,8 @@
         });
         
         $("#network").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/net.png")
+            $("#exhibitors-info img").attr("src","img/lavo/net.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/2016/12/blog-post.html");
             $("#exhibitors-info h3").html("ネットワークデザインスタジオ");
             $("#labo-name-en").html("Network Design Studio");
             $("#masters-title").html("修士");
@@ -225,7 +233,8 @@
         });
         
         $("#interactive").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/intractive.png")
+            $("#exhibitors-info img").attr("src","img/lavo/intractive.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("インタラクティブアートスタジオ");
             $("#labo-name-en").html("Interactive Art Studio");
             $("#masters-title").html("");
@@ -234,7 +243,8 @@
         });
 
         $("#software").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/soft.png")
+            $("#exhibitors-info img").attr("src","img/lavo/soft.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/2016/12/blog-post_22.html");
             $("#exhibitors-info h3").html("ソフトウェアデザインスタジオ");
             $("#labo-name-en").html("Software Design Studio");
             $("#masters-title").html("修士");
@@ -243,7 +253,8 @@
         });
         
         $("#kinematograph").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/mov.png")
+            $("#exhibitors-info img").attr("src","img/lavo/mov.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("映像デザインスタジオ");
             $("#labo-name-en").html("kinematograph Design Studio");
             $("#masters-title").html("修士");
@@ -252,7 +263,8 @@
         });
         
         $("#editorial").click(function() {
-            $("#exhibitors-info img").attr("src","img/lavo/edit.png")
+            $("#exhibitors-info img").attr("src","img/lavo/edit.png");
+            $("#readmore-button a").attr("href","https://iagw2017-blog.blogspot.jp/");
             $("#exhibitors-info h3").html("エディティングデザインスタジオ");
             $("#labo-name-en").html("Editorial Design Studio");
             $("#masters-title").html("修士");

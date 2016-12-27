@@ -536,13 +536,21 @@ h1{
 #bachelors{
     width: 270px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-wrap:wrap;
 }
 
 #bachelors span{
     width: 130px;
+}
+
+#readmore-button {
+    margin-bottom: 3%;
+}
+#readmore-button a{
+    text-decoration: none;
+    color: #5c6a70;
 }
 
 #lavo{
@@ -657,6 +665,11 @@ h1{
 #header-small{
         display: none;
     }
+
+
+
+
+
 
 @media screen and (max-width:700px){
     #header-large{
