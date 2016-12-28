@@ -104,7 +104,7 @@ h1{
 
 #firstview-togediv{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: auto;
     bottom: 0px;
     margin-bottom: -5px;
@@ -768,7 +768,7 @@ h1{
         font-size: 25px;
         font-weight: 600;
         line-height: 39px;
-        letter-spacing:1px;4
+        letter-spacing:1px;
     }
 
     .h1-sub{
@@ -837,7 +837,7 @@ h1{
     }
     
     #snsIcons img{
-        width:13vw;; 
+        width:13vw; 
         margin:10px;
     }
     
@@ -1152,7 +1152,6 @@ h1{
     #blog hr{
         width: 6em;
         margin: 0 auto;
-        border: 
     }
 
     #other-exhibition h1{
