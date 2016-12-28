@@ -760,6 +760,9 @@ h1{
         z-index: 50;
     }
 
+    #firstview-togediv{
+        width: 100vw;
+    }
     
     
     #firstview h1{
