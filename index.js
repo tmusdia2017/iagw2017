@@ -12,9 +12,16 @@
             
             //href内を確認して取得
             var target= $(this).attr("href");
+            
             console.log(target);
             // 移動先を取得
-            var position = $(target).offset().top;
+            var positon;
+            if (target == "#"){
+                $('#wrapper').animate({scrollTop:0}, 1000);
+                return false;
+            }else{
+                position = $(target).offset().top;
+            }
             console.log("position " + position);
  
             console.log("y " +y);
