@@ -111,6 +111,8 @@ h1{
     z-index: 9999;
     display: flex;
     justify-content: center;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
 }
         
 .header_content{
@@ -745,6 +747,7 @@ h1{
         width: 100vw;
         overflow-x: hidden;
     }
+    
     
     .firstview-title{
         position: relative;
