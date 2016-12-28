@@ -111,7 +111,7 @@ h1{
     z-index: 9999;
     display: flex;
     justify-content: center;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-justify-content: center;
 }
         
