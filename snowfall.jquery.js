@@ -168,7 +168,7 @@ if (!Date.now)
                 this.update = function(){
                     this.y += this.speed;
 
-                    if(this.y > (elHeight) - (this.size  + 6)){
+                    if(this.y - 100 > (elHeight) - (this.size  + 6)){
                         this.reset();
                     }
 
@@ -230,14 +230,14 @@ if (!Date.now)
                         }
                     }
 
-                    if(this.x + this.size > (elWidth) - widthOffset || this.x < widthOffset){
+                    if(this.x + this.size - 100 > (elWidth) - widthOffset || this.x < widthOffset){
                         this.reset();
                     }
                 }
 
                 // Resets the snowflake once it reaches one of the bounds set
                 this.reset = function(){
-                    this.y = 0;
+                    this.y = -100;
                     this.x = random(widthOffset, elWidth - widthOffset);
                     this.stepSize = random(1,10) / 100;
                     this.size = random((options.minSize * 100), (options.maxSize * 100)) / 100;

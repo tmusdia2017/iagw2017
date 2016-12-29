@@ -325,6 +325,11 @@ h1{
     
 }
 
+#maplink-btn:hover { 
+    margin-top: 55px;
+    margin-bottom: 39px;
+}
+
 
 #informationbox-left{
     min-width: 300px;
@@ -425,6 +430,11 @@ h1{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    
+}
+
+#blog-link:hover{
+    margin-top: 95px;
 }
 
 
