@@ -201,7 +201,9 @@ h1{
 #concept-title-hr{
     width: 170px;
     margin: 0 auto;
-    border: 1px solid #5C6A70;
+    border-width: 1px 0 0 0;
+    color:  #5C6A70;
+    
 }
 #concept-center{
     float: left;
@@ -213,15 +215,18 @@ h1{
 .concept-concept{
     margin: 0 auto;
     max-width: 800px;
+    padding-left: 20px;
     width: auto;
     text-align: left;
     display: block;
+    border-left: 2px solid #5C6A70;
 }
 
 .concept-concept hr{
     width: 400px;
     border: 1px solid black;
     margin-top: -10px;
+    display: none;
 }
 
 .concept-piece{
@@ -267,7 +272,8 @@ h1{
 #information hr{
     width: 260px;
     margin: 0 auto;
-    border: 1px solid #5C6A70;
+    border-width: 1px 0 0 0;
+    color:  #5C6A70;
 }
     
 #informationbox{
@@ -395,7 +401,8 @@ h1{
 #blog hr{
     width: 6em;
     margin: 0 auto;
-    border: 1px solid #5C6A70;
+    border-width: 1px 0 0 0;
+    color:  #5C6A70;
 }
 
 #blog-link{
@@ -427,7 +434,8 @@ h1{
 #other-exhibition hr{
     width: 10em;
     margin: 0 auto;
-    border: 1px solid #5C6A70;
+    border-width: 1px 0 0 0;
+    color:  #5C6A70;
 }
 
 #exhibition-exhibitions{
@@ -502,7 +510,8 @@ h1{
 #exhibitors hr{
     width: 260px;
     margin: 0 auto;
-    border: 1px solid #5C6A70;
+    border-width: 1px 0 0 0;
+    color:  #5C6A70;
 }    
 
 #exhibitors-info{
@@ -868,7 +877,8 @@ h1{
     #concept-title-hr{
         width: 130px;
         margin: 0 auto;
-        border: 1px solid #5C6A70;
+        border-width: 1px 0 0 0;
+        color:  #5C6A70;
         margin-bottom: 0px;
     }
     
@@ -882,15 +892,17 @@ h1{
     }
     .concept-concept{
         margin: 0 auto;
+        padding: 0;
         width: auto;
         max-width: 80vw;
         text-align: left;
+        border-left: 0;
         display: block;
     }
 
     .concept-concept hr{
         width: 250px;
-        border: 1px solid black;
+        border: 1px solid #5c6a70;
         margin-top: -15px;
     }
 
@@ -931,7 +943,8 @@ h1{
     #information hr{
         width: 190px;
         margin: 0 auto;
-        border: 1px solid #5C6A70;
+        border-width: 1px 0 0 0;
+        color:  #5C6A70;
     }
 
     #informationbox{
@@ -1043,8 +1056,8 @@ h1{
 
     #exhibitors hr{
         width: 170px;
-        margin: 0 auto;
-        border: 1px solid #5C6A70;
+        border-width: 1px 0 0 0;
+        color:  #5C6A70;
     }    
 
     #exhibitors-info{
@@ -1176,7 +1189,8 @@ h1{
     #other-exhibition hr{
         width: 140px;
         margin: 0 auto;
-        border: 1px solid #5C6A70;
+        border-width: 1px 0 0 0;
+        color:  #5C6A70;
     }
     
     
