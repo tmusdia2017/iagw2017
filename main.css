@@ -140,6 +140,15 @@ h1{
     width: 100%;
     height: 90vh;
     display: flex;
+    align-content: center;
+}
+
+#greeting-content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    background:#ffffff;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -163,6 +172,7 @@ h1{
 }
 
 #snsIcons{
+    margin: 0 auto;
     width: 20vw;
     display: flex;
     flex-wrap: wrap;
@@ -202,7 +212,6 @@ h1{
     width: 170px;
     margin: 0 auto;
     border-width: 1px 0 0 0;
-    color:  #5C6A70;
     
 }
 #concept-center{
@@ -224,7 +233,7 @@ h1{
 
 .concept-concept hr{
     width: 400px;
-    border: 1px solid black;
+    border-width: 1px 0 0 0;
     margin-top: -10px;
     display: none;
 }
@@ -273,7 +282,6 @@ h1{
     width: 260px;
     margin: 0 auto;
     border-width: 1px 0 0 0;
-    color:  #5C6A70;
 }
     
 #informationbox{
@@ -402,7 +410,6 @@ h1{
     width: 6em;
     margin: 0 auto;
     border-width: 1px 0 0 0;
-    color:  #5C6A70;
 }
 
 #blog-link{
@@ -435,7 +442,6 @@ h1{
     width: 10em;
     margin: 0 auto;
     border-width: 1px 0 0 0;
-    color:  #5C6A70;
 }
 
 #exhibition-exhibitions{
@@ -511,7 +517,6 @@ h1{
     width: 260px;
     margin: 0 auto;
     border-width: 1px 0 0 0;
-    color:  #5C6A70;
 }    
 
 #exhibitors-info{
@@ -878,7 +883,6 @@ h1{
         width: 130px;
         margin: 0 auto;
         border-width: 1px 0 0 0;
-        color:  #5C6A70;
         margin-bottom: 0px;
     }
     
@@ -901,8 +905,8 @@ h1{
     }
 
     .concept-concept hr{
+        display: block;
         width: 250px;
-        border: 1px solid #5c6a70;
         margin-top: -15px;
     }
 
@@ -944,7 +948,6 @@ h1{
         width: 190px;
         margin: 0 auto;
         border-width: 1px 0 0 0;
-        color:  #5C6A70;
     }
 
     #informationbox{
@@ -1057,7 +1060,6 @@ h1{
     #exhibitors hr{
         width: 170px;
         border-width: 1px 0 0 0;
-        color:  #5C6A70;
     }    
 
     #exhibitors-info{
@@ -1190,7 +1192,6 @@ h1{
         width: 140px;
         margin: 0 auto;
         border-width: 1px 0 0 0;
-        color:  #5C6A70;
     }
     
     
