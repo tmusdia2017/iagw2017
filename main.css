@@ -670,6 +670,10 @@ h1{
     display: block;
 }
 
+#footer p{
+    margin-right: 1em;
+}
+
 #header-small{
         display: none;
     }
@@ -1215,8 +1219,12 @@ h1{
         line-height: 20px;
     }
     
-    footer p{
+    #footer p{
         font-size: 8pt;
+        text-align: center;
+        width:300px;
+        height: auto;
+        margin: auto;
     }
 
 }
