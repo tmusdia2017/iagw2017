@@ -521,7 +521,7 @@ h1{
 }    
 
 #exhibitors-info{
-    max-width: 70vw;
+    max-width: 530px;
     min-width: 360px;
     margin: 0 auto;
     margin-top: 30px;
@@ -572,7 +572,6 @@ h1{
     margin-bottom: 3%;
 }
 #readmore-button a{
-    text-decoration: none;
     color: #5c6a70;
 }
 
