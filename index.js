@@ -164,7 +164,7 @@
             $("#exhibitors-info h3").html("トランスポーテーションデザインスタジオ");
             $("#labo-name-en").html("Transportation Design Studio");
             $("#masters-title").html("修士");
-            $("#masters").html("<span>小金丸朗生</span><span>後藤千尋</span>");
+            $("#masters").html("<span>小金丸朗生</span><span>佐藤良</span>");
             $("#bachelors").html("<span>秋山大輝</span><span>佐野友優</span><span>和田遥菜</span><span>小笠原菜摘</span><span>池田政也</span>");
         });
         
@@ -192,7 +192,7 @@
             $("#labo-name-en").html("Spacial Design Studio");
             $("#masters-title").html("修士");
             $("#masters").html("<span>飯島好美</span><span>高橋幸典</span><span>林怡均</span>");
-            $("#bachelors").html("<span>阿山航</span><span>尾澤陽一郎</span><span>田辺皐</span>");  
+            $("#bachelors").html("<span>阿山航</span><span>田辺皐</span>");  
         });
 
         $("#interior").click(function() {
@@ -210,7 +210,7 @@
             $("#labo-name-en").html("Ergonomic Design Studio");
             $("#masters-title").html("修士");
             $("#masters").html("<span>山口真理子</span>");
-            $("#bachelors").html("<span>柴尾美音</span><span>下園克</span><span>須田絵里花</span><span>津守一樹</span><span>山本祐邦子</span>");  
+            $("#bachelors").html("<span>柴尾美音</span><span>下園克</span><span>須田絵里花</span><span>津守一樹</span><span>中村希望</span><span>山本祐邦子</span>");  
         });
         
         $("#visual").click(function() {
@@ -237,7 +237,7 @@
             $("#labo-name-en").html("Interactive Art Studio");
             $("#masters-title").html("");
             $("#masters").html("");
-            $("#bachelors").html("<span>小幡朱</span><span>黒崎美聡</span><span>國友美世子</span><span>永井歩</span><span>宮下恵太</span>");  
+            $("#bachelors").html("<span>小幡朱</span><span>黒崎美聡</span><span>國友美世子</span><span>永井歩</span><span>宮下恵太</span><span>月森聡美</span>");  
         });
 
         $("#software").click(function() {
@@ -263,8 +263,8 @@
             $("#exhibitors-info h3").html("エディティングデザインスタジオ");
             $("#labo-name-en").html("Editorial Design Studio");
             $("#masters-title").html("修士");
-            $("#masters").html("<span>趙</span>");
-            $("#bachelors").html("<span>石橋弓子</span><span>小野寺蛍</span><span>佐々木淑子</span><span>関香月</span><span>船越草馬</span>");  
+            $("#masters").html("<span>趙瓊瓊</span>");
+            $("#bachelors").html("<span>石橋弓子</span><span>尾澤陽一郎</span><span>小野寺蛍</span><span>佐々木淑子</span><span>関香月</span><span>船越草馬</span>");  
         });
 
     });

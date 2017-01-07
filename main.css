@@ -47,6 +47,7 @@ h1{
     width: 100vw;
     height: 90vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling:touch;
 }
 
@@ -231,15 +232,6 @@ h1{
     z-index: 10;
 }
 
-#piece-img{
-    display: none;
-    position: absolute;
-    left:70%;
-    top: 70%;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
-}
 .concept-concept{
     margin: 0 auto;
     max-width: 800px;
