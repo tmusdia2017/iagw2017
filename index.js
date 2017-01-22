@@ -165,7 +165,7 @@
             $("#labo-name-en").html("Transportation Design Studio");
             $("#masters-title").html("修士");
             $("#masters").html("<span>小金丸朗生</span><span>佐藤良</span>");
-            $("#bachelors").html("<span>秋山大輝</span><span>佐野友優</span><span>和田遥菜</span><span>小笠原菜摘</span><span>池田政也</span>");
+            $("#bachelors").html("<span>秋山大暉</span><span>佐野友優</span><span>和田遥菜</span><span>小笠原菜摘</span><span>池田政也</span>");
         });
         
         $("#equip").click(function() {
